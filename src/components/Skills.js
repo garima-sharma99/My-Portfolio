@@ -10,7 +10,6 @@ import cssLogo from "../assets/img/cssLogo.jpg"
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -58,22 +57,6 @@ export const Skills = () => {
                     <img src={htmlLogo} alt="meter" className="img-fluid border border-0 rounded-circle" />
                     <h5>Html</h5>
                   </div>
-                  {/* <div className="item">
-                  <img src={meter1} alt="meter" />
-                  <h5>React Native</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="meter" />
-                  <h5>NodeJs</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="meter" />
-                  <h5>ExpressJs</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="meter" />
-                  <h5>MongoDB</h5>
-                </div> */}
                 </Carousel>
               </div>
             </div>
