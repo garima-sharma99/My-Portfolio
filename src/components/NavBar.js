@@ -32,34 +32,34 @@ export const NavBar = () => {
 
   return (
     <>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container>
-          <Navbar.Brand href="/">
+      <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+        <Container fluid>
+          <Navbar.Brand href="/" className="d-flex align-items-center">
             <img src={logo} alt="Logo" className="border rounded-circle img-fluid bg-secondary" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+            <Nav className="mx-auto">
+              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link mx-lg-2' : 'navbar-link mx-lg-2'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link mx-lg-2' : 'navbar-link mx-lg-2'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+              <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link mx-lg-2' : 'navbar-link mx-lg-2'} onClick={() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
+              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link mx-lg-2' : 'navbar-link mx-lg-2'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
-            <span className="navbar-text">
-              <div className="social-icon">
-                <a target="_blank" href="https://www.linkedin.com/in/garima-sharma-215350249/" rel="noreferrer"><img src={navIcon1} alt="" /></a>
-                <a target="_blank" href="https://github.com/garima-sharma99" rel="noreferrer"><img src={navIcon4} alt="" /></a>
+            <div className="navbar-text d-flex flex-column flex-lg-row align-items-center flex-md-grow-1">
+              <div className="social-icon d-flex justify-content-center mb-3 mb-lg-0">
+                <a target="_blank" href="https://www.linkedin.com/in/garima-sharma-215350249/" rel="noreferrer" className="me-2"><img className="img-fluid" src={navIcon1} alt="" /></a>
+                <a target="_blank" href="https://github.com/garima-sharma99" rel="noreferrer" className="me-2"><img className="img-fluid" src={navIcon4} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+              <HashLink to='#connect' className="ms-0 ms-lg-3">
+                <button className="vvd btn"><span>Let’s Connect</span></button>
               </HashLink>
-            </span>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <img className="background-image-right" src={colorSharp2} alt="Background" />
+      <img className="background-image-right w-100" src={colorSharp2} alt="Background" />
     </>
   )
 }

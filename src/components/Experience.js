@@ -90,8 +90,8 @@ const Experience = () => {
   const responsive = {
     superLargeDesktop: { breakpoint: { max: 4000, min: 3000 }, items: 3 },
     desktop: { breakpoint: { max: 3000, min: 1024 }, items: 2 },
-    tablet: { breakpoint: { max: 1024, min: 464 }, items: 1 },
-    mobile: { breakpoint: { max: 464, min: 0 }, items: 1 },
+    tablet: { breakpoint: { max: 1024, min: 768 }, items: 1 },
+    mobile: { breakpoint: { max: 900, min: 250 }, items: 1 },
   };
 
   const handleCardClick = (experience) => {
@@ -112,10 +112,13 @@ const Experience = () => {
                   responsive={responsive}
                   infinite={true}
                   className="owl-carousel owl-theme experience-slider"
+                  swipeable={true}
+                  draggable={true}
+                  showDots={true}
                 >
                   {experiences.map((exp, index) => (
                     <div
-                      className="experience-card"
+                      className="experience-card mx-2 shadow"
                       key={index}
                       onClick={() => handleCardClick(exp)}
                     >

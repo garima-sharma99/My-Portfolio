@@ -426,7 +426,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Experience Section CSS ************/
-.experience {
+/* .experience {
   padding: 80px 0;
   position: relative;
   background-color: #121212;
@@ -475,9 +475,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media screen and (max-width: 1024px) {
   .experience-card-inner {
     height: auto;
-    /* Allow flexible height for smaller screens */
   }
 }
+
 
 .experience-card-inner {
   background: #1e1e1e;
@@ -505,7 +505,160 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .experience-card-inner p {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
+} */
+/* Existing CSS for the experience section */
+.experience {
+  padding: 80px 0;
+  position: relative;
+  background-color: #121212;
+  z-index: 1;
 }
+
+.experience-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.experience h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.experience p {
+  color: #B8B8B8;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+
+.experience-card {
+  margin: 10px;
+  cursor: pointer;
+  width: 80%;
+}
+
+.experience-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.experience-slider .react-multi-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+/* Updated styles for experience-card-inner */
+.experience-card-inner {
+  background: #1e1e1e;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: auto; /* Remove fixed height to prevent overflow */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Ensure items are aligned from the top */
+}
+
+.experience-card-inner:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.experience-card-inner h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.experience-card-inner p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.experience-card-inner img {
+  width: 25%; /* Maintain a consistent size for the logo */
+  margin-left: auto;
+  margin-right: auto; /* Center the image */
+  margin-top: 10px;
+  max-width: 100%; /* Ensure the image does not overflow */
+}
+
+/* Responsive Styles */
+
+/* For medium and small screens (md and sm) */
+@media screen and (max-width: 1024px) {
+  .experience .experience-card-inner {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 15px !important;
+  }
+
+  .experience .experience-card-inner h3 {
+    font-size: 18px !important;
+  }
+
+  .experience .experience-card-inner p {
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .experience .experience-card-inner img {
+    width: 40% !important;
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience .experience-card-inner h3 {
+    font-size: 16px !important;
+  }
+
+  .experience .experience-card-inner p {
+    font-size: 12px !important;
+  }
+
+  .experience .experience-card-inner img {
+    width: 50% !important; /* Further reduce logo size */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .experience .experience-card-inner h3 {
+    font-size: 14px !important;  /* Adjusting font size */
+  }
+
+  .experience .experience-card-inner p {
+    font-size: 12px !important;
+  }
+
+  .experience .experience-card-inner img {
+    display: none !important;  /* Further reduce logo size */
+  }
+}
+
+@media screen and (max-width: 344px) {
+  .experience .experience-card-inner h3 {
+    font-size: 12px !important;  /* Adjusting font size further */
+  }
+
+  .experience .experience-card-inner p {
+    font-size: 12px !important;
+  }
+
+  .experience .experience-card-inner img {
+    display: none !important;  /* Further reduce logo size */
+  }
+}
+
+
 
 /************ Modal CSS ************/
 .modal {
