@@ -266,6 +266,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   height: 2px;
 }
 
+
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
@@ -425,87 +426,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Experience Section CSS ************/
-/* .experience {
-  padding: 80px 0;
-  position: relative;
-  background-color: #121212;
-  z-index: 1;
-}
 
-.experience-bx {
-  background: #151515;
-  border-radius: 64px;
-  text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
-}
-
-.experience h2 {
-  font-size: 45px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.experience p {
-  color: #B8B8B8;
-  font-size: 18px;
-  line-height: 1.5em;
-  margin-bottom: 40px;
-}
-
-.experience-card {
-  margin: 10px;
-  cursor: pointer;
-  width: 80%;
-}
-
-.experience-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-
-.experience-slider .react-multi-carousel-item {
-  display: flex;
-  justify-content: center;
-}
-
-@media screen and (max-width: 1024px) {
-  .experience-card-inner {
-    height: auto;
-  }
-}
-
-
-.experience-card-inner {
-  background: #1e1e1e;
-  border-radius: 15px;
-  padding: 20px;
-  text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 190px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.experience-card-inner:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
-}
-
-.experience-card-inner h3 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #fff;
-}
-
-.experience-card-inner p {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
-} */
 /* Existing CSS for the experience section */
 .experience {
   padding: 80px 0;

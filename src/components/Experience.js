@@ -21,19 +21,31 @@ const Experience = () => {
           period: "May 2024 – Present",
           projects: [
             {
-              name: "Carnival Corporate Token (Admin)",
+              name: "USDT Conversion",
+              duration: "Jan 2025 – Present",
               details: [
-                "Developed a responsive admin panel using React.js to manage corporate tokens efficiently.",
-                "Implemented state management with Redux-Toolkit to ensure a smooth user experience.",
-                "Worked with API integrations for dynamic data handling, improving performance by 20%.",
+                "Developing a USDT currency trading platform with a user interface along with its admin panel.",
               ],
             },
             {
-              name: "Crypto India (Admin)",
+              name: "Sports Diviner (Admin)",
+              duration: "Dec 2024 – Present",
               details: [
-                "Led the front-end development of an admin interface for a cryptocurrency platform.",
-                "Collaborated with the backend team to integrate and secure APIs for cryptocurrency transactions.",
-                "Ensured cross-browser compatibility and mobile responsiveness for the admin dashboard.",
+                "Developing an admin interface for a sport platform app on which based on real-time football game updates, predictions can be done.",
+              ],
+            },
+            {
+              name: "VR-FX",
+              duration: "Oct 2024 – Present",
+              details: [
+                "Developing a user and admin interface for a financial market broker that offers online trading services.",
+              ],
+            },
+            {
+              name: "My Champ 11",
+              duration: "Jul 2024 – Present",
+              details: [
+                "Developing an admin interface for a fantasy gaming app where users can build their team and win.",
               ],
             },
           ],
@@ -149,6 +161,7 @@ const Experience = () => {
               {role.projects && role.projects.map((project, idx) => (
                 <div key={idx}>
                   <h4>{project.name}</h4>
+                  <h6>({project.duration})</h6>
                   <ul>
                     {project.details.map((detail, j) => (
                       <li key={j}>{detail}</li>

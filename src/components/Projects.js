@@ -5,6 +5,8 @@ import sportsDivinerLogo from "../assets/img/sportsDivinerLogo.png";
 import usdtConvertLogo from "../assets/img/usdtConvertLogo.ico";
 import rcbproj from "../assets/img/rcb-proj.png";
 import sportsDiviner from "../assets/img/sportsDiviner.png";
+import myChampLogo from "../assets/img/MyChamp.png";
+import myChampBg from "../assets/img/MyChampBg.jpg"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -32,6 +34,13 @@ export const Projects = () => {
       imgUrl: rcbproj,
       logoUrl: usdtConvertLogo,
       url:'http://103.175.163.162:3003/',
+    },
+    {
+      title: "My Champ 11",
+      description: "Fantasy Gaming App Platform",
+      imgUrl: myChampBg,
+      logoUrl: myChampLogo,
+      url:'https://mychamp11.co.in/',
     },
 
 
@@ -61,7 +70,7 @@ export const Projects = () => {
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Tab.Pane eventKey="first">
-                        <Row>
+                        <Row className="mb-4">
                           {
                             projects.map((project, index) => {
                               return (
