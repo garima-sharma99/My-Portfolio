@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5c1c653.css",
-    "main.js": "/static/js/main.b5e89b28.js",
+    "main.css": "/static/css/main.556d04a0.css",
+    "main.js": "/static/js/main.c78717ab.js",
     "static/media/geevLogo.png": "/static/media/geevLogo.301860f0ccea2c09adfd.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.879b01d62e116dea6908.png",
     "static/media/header-img.png": "/static/media/header-img.de9b253325e70cc3906c.png",
@@ -10,6 +10,7 @@
     "static/media/rcb-proj.png": "/static/media/rcb-proj.09549e5356ff56fa7d87.png",
     "static/media/logo.png": "/static/media/logo.b0d2d114dd371b64963f.png",
     "static/media/sportsDiviner.png": "/static/media/sportsDiviner.aab1f838bea3f6cbb79c.png",
+    "static/media/MyChampBg.jpg": "/static/media/MyChampBg.14c581942f6551603786.jpg",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -24,11 +25,11 @@
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.d2618f21d602cec33f75a9d3090c4300.svg",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.f5c1c653.css.map": "/static/css/main.f5c1c653.css.map",
-    "main.b5e89b28.js.map": "/static/js/main.b5e89b28.js.map"
+    "main.556d04a0.css.map": "/static/css/main.556d04a0.css.map",
+    "main.c78717ab.js.map": "/static/js/main.c78717ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5c1c653.css",
-    "static/js/main.b5e89b28.js"
+    "static/css/main.556d04a0.css",
+    "static/js/main.c78717ab.js"
   ]
 }
