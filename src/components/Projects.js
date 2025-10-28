@@ -23,56 +23,56 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
-   {
-  title: "AIZU Exchange",
-  description: "Crypto Exchange Admin Platform",
-  imgUrl: aizuBg,
-  logoUrl: aizuLogo,
-  url: "https://aizu.exchange/",
-},
-{
-  title: "Superstar Admin",
-  description: "Contest Management & Analytics Platform",
-  imgUrl: superstarBg,
-  logoUrl: superstarLogo,
-  url: "http://103.175.163.162:5557/",
-},
-{
-  title: "Quickies Dating Admin",
-  description: "Dating App Admin Panel for User & Chat Moderation",
-  imgUrl: quickiesBg,
-  logoUrl: quickiesLogo,
-  url: "https://quickiesadmin.com/",
-},
-{
-  title: "Ludo Live Game Monitoring",
-  description: "Real-Time Game Visualization Dashboard",
-  imgUrl: ludoBg,
-  logoUrl: ludoLogo,
-  url: "http://103.175.163.162:4000/",
-},
-{
-  title: "Spark Net Global",
-  description: "MLM Platform with Wallet & Referral Management",
-  imgUrl: sparkNetBg,
-  logoUrl: sparkNetLogo,
-  url: "https://sparknetglobal.com/",
-},
-{
-  title: "Sports Diviner",
-  description: "Fantasy Sports Admin & Data Visualization Platform",
-  imgUrl: sportsDiviner,
-  logoUrl: sportsDivinerLogo,
-  url: "http://103.175.163.162:5556/",
-},
-{
-  title: "My Champ 11",
-  description: "Fantasy Gaming Admin Panel with Live Analytics",
-  imgUrl: myChampBg,
-  logoUrl: myChampLogo,
-  url: "https://mychamp11.co.in/",
-},
+  const projectsTab1 = [
+    {
+      title: "AIZU Exchange",
+      description: "Crypto Exchange Admin Platform",
+      imgUrl: aizuBg,
+      logoUrl: aizuLogo,
+    },
+    {
+      title: "Superstar Admin",
+      description: "Contest Management & Analytics Platform",
+      imgUrl: superstarBg,
+      logoUrl: superstarLogo,
+    },
+    {
+      title: "Quickies Dating Admin",
+      description: "Dating App Admin Panel for User & Chat Moderation",
+      imgUrl: quickiesBg,
+      logoUrl: quickiesLogo,
+    },
+
+  ];
+  const projectsTab2 = [
+
+    {
+      title: "Ludo Live Game Monitoring",
+      description: "Real-Time Game Visualization Dashboard",
+      imgUrl: ludoBg,
+      logoUrl: ludoLogo,
+    },
+    {
+      title: "Spark Net Global",
+      description: "MLM Platform with Wallet & Referral Management",
+      imgUrl: sparkNetBg,
+      logoUrl: sparkNetLogo,
+    },
+    {
+      title: "Sports Diviner",
+      description: "Fantasy Sports Admin & Data Visualization Platform",
+      imgUrl: sportsDiviner,
+      logoUrl: sportsDivinerLogo,
+    },
+   
+  ];
+  const projectsTab3 = [
+    {
+      title: "My Champ 11",
+      description: "Fantasy Gaming Admin Panel with Live Analytics",
+      imgUrl: myChampBg,
+      logoUrl: myChampLogo,
+    },
 
   ];
 
@@ -89,20 +89,20 @@ export const Projects = () => {
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first" className="btn">Tab 1</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second" disabled>Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second" className="btn">Tab 2</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third" disabled>Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third" className="btn">Tab 3</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Tab.Pane eventKey="first">
                         <Row>
                           {
-                            projects.map((project, index) => {
+                            projectsTab1.map((project, index) => {
                               return (
                                 <ProjectCard
                                   key={index}
@@ -114,10 +114,32 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                        <Row>
+                          {
+                            projectsTab2.map((project, index) => {
+                              return (
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
+                                />
+                              )
+                            })
+                          }
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                         <Row>
+                          {
+                            projectsTab3.map((project, index) => {
+                              return (
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
+                                />
+                              )
+                            })
+                          }
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

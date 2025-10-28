@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.556d04a0.css",
-    "main.js": "/static/js/main.ebc1a8f2.js",
+    "main.js": "/static/js/main.794a6b9b.js",
     "static/media/geevLogo.png": "/static/media/geevLogo.301860f0ccea2c09adfd.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.879b01d62e116dea6908.png",
     "static/media/superstarLogo.png": "/static/media/superstarLogo.300dfd328d779159c8cf.png",
@@ -33,10 +33,10 @@
     "static/media/github.svg": "/static/media/github.d2618f21d602cec33f75a9d3090c4300.svg",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.556d04a0.css.map": "/static/css/main.556d04a0.css.map",
-    "main.ebc1a8f2.js.map": "/static/js/main.ebc1a8f2.js.map"
+    "main.794a6b9b.js.map": "/static/js/main.794a6b9b.js.map"
   },
   "entrypoints": [
     "static/css/main.556d04a0.css",
-    "static/js/main.ebc1a8f2.js"
+    "static/js/main.794a6b9b.js"
   ]
 }

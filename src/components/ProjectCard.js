@@ -1,9 +1,9 @@
 import { Col } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, imgUrl, logoUrl, url }) => {
+export const ProjectCard = ({ title, description, imgUrl, logoUrl }) => {
   return (
     <Col className="mb-5" size={12} sm={6} md={4}>
-      <a target="_blank" href={url} rel="noreferrer" className="text-white">
+    
       <div className="proj-imgbx">
         <img src={imgUrl} alt="" />
         <p>{title}</p>
@@ -13,7 +13,7 @@ export const ProjectCard = ({ title, description, imgUrl, logoUrl, url }) => {
           <span>{description}</span>
         </div>
       </div>
-      </a>
+     
     </Col>
   )
 }
