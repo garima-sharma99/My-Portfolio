@@ -1,20 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.556d04a0.css",
-    "main.js": "/static/js/main.c78717ab.js",
+    "main.js": "/static/js/main.ebc1a8f2.js",
     "static/media/geevLogo.png": "/static/media/geevLogo.301860f0ccea2c09adfd.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.879b01d62e116dea6908.png",
+    "static/media/superstarLogo.png": "/static/media/superstarLogo.300dfd328d779159c8cf.png",
     "static/media/header-img.png": "/static/media/header-img.de9b253325e70cc3906c.png",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/rcb-proj.png": "/static/media/rcb-proj.09549e5356ff56fa7d87.png",
+    "static/media/sparkNetBg.png": "/static/media/sparkNetBg.84585557e20a14af29e6.png",
     "static/media/logo.png": "/static/media/logo.b0d2d114dd371b64963f.png",
     "static/media/sportsDiviner.png": "/static/media/sportsDiviner.aab1f838bea3f6cbb79c.png",
+    "static/media/ludoLogo.png": "/static/media/ludoLogo.5f2262db5468047199e5.png",
+    "static/media/sparkNetLogo.png": "/static/media/sparkNetLogo.e8fdcbfe8fcedf29a723.png",
+    "static/media/aizuBg.png": "/static/media/aizuBg.d1e23e78690a155c20a9.png",
+    "static/media/ludoBg.png": "/static/media/ludoBg.a51d4bbdce8e3731b701.png",
     "static/media/MyChampBg.jpg": "/static/media/MyChampBg.14c581942f6551603786.jpg",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/aizuLogo.png": "/static/media/aizuLogo.82933abb2560a04fd137.png",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/spvLogo.png": "/static/media/spvLogo.2fa1ab74c6c739132eb4.png",
     "static/media/usdtConvertLogo.ico": "/static/media/usdtConvertLogo.01de50ae64848e495900.ico",
@@ -26,10 +33,10 @@
     "static/media/github.svg": "/static/media/github.d2618f21d602cec33f75a9d3090c4300.svg",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.556d04a0.css.map": "/static/css/main.556d04a0.css.map",
-    "main.c78717ab.js.map": "/static/js/main.c78717ab.js.map"
+    "main.ebc1a8f2.js.map": "/static/js/main.ebc1a8f2.js.map"
   },
   "entrypoints": [
     "static/css/main.556d04a0.css",
-    "static/js/main.c78717ab.js"
+    "static/js/main.ebc1a8f2.js"
   ]
 }

@@ -13,7 +13,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [, setIndex] = useState(1);
-  const toRotate = useMemo(() => ["ReactJs Developer", "Web Developer", "Frontend Developer"], []);
+  const toRotate = useMemo(() => ["ReactJs Developer", "Software Developer", "Frontend Developer"], []);
   const period = 500;
 
   const tick = useCallback(() => {
@@ -63,15 +63,29 @@ export const Banner = () => {
                     <div className="objective">
 
                       <ul className='ms-4'>
-                        <li className="my-1">Proficient in <u>React.js</u>, <u>Redux-Toolkit</u>, <u>API integration</u>, and <u>UI development</u>.</li>
-                        <li className="my-1">Experienced in real-time data management, performance optimization, and responsive design.</li>
-                        <li className="my-1">Skilled in collaborating with cross-functional teams to deliver high-quality solutions.</li>
+                        <li className="my-1">
+                          Results-driven <u>React.js Developer</u> with 1+ years of experience building scalable, high-performance web applications.
+                        </li>
+                        <li className="my-1">
+                          Proficient in <u>component-based architecture</u>, <u>API integration</u>, and <u>user experience optimization</u>.
+                        </li>
+                        <li className="my-1">
+                          Skilled in implementing <u>real-time features</u>, <u>dynamic data tables</u>, and <u>state management</u> using Redux Toolkit.
+                        </li>
+                        <li className="my-1">
+                          Experienced in <u>collaborative development</u>, delivering <u>enterprise-grade</u> and <u>responsive web solutions</u>.
+                        </li>
                       </ul>
+
                     </div>
 
-                    <HashLink to='#connect'>
+                    <a
+                      href="https://wa.me/917742840588?text=Hi%20Garima,%20I%20visited%20your%20portfolio%20and%20want%20to%20connect!"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <button className="vvd"><span>Let’s Connect </span><ArrowRightCircle size={25} /></button>
-                    </HashLink>
+                    </a>
                   </div>}
               </TrackVisibility>
             </Col>

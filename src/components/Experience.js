@@ -21,35 +21,32 @@ const Experience = () => {
           period: "May 2024 – Present",
           projects: [
             {
-              name: "USDT Conversion",
-              duration: "Jan 2025 – Present",
               details: [
-                "Developing a USDT currency trading platform with a user interface along with its admin panel.",
+                "Developed a scalable cryptocurrency trading platform with an intuitive user interface and admin panel using React.js and Redux Toolkit.",
+                "Implemented real-time transaction updates, optimized API interactions, and enhanced performance through code splitting and lazy loading.",
               ],
             },
             {
-              name: "Sports Diviner (Admin)",
-              duration: "Dec 2024 – Present",
               details: [
-                "Developing an admin interface for a sport platform app on which based on real-time football game updates, predictions can be done.",
+                "Built an admin interface for a real-time football prediction platform integrating live match data via WebSockets.",
+                "Implemented persistent filters, debounced search, and dynamic pagination to optimize API calls and improve user experience.",
               ],
             },
             {
-              name: "VR-FX",
-              duration: "Oct 2024 – Present",
               details: [
-                "Developing a user and admin interface for a financial market broker that offers online trading services.",
+                "Developed a responsive admin and user interface for a financial trading platform with dynamic dashboards and modular components.",
+                "Created reusable column configurations and expanded row components for data tables, reducing code duplication and improving maintainability.",
               ],
             },
             {
-              name: "My Champ 11",
-              duration: "Jul 2024 – Present",
               details: [
-                "Developing an admin interface for a fantasy gaming app where users can build their team and win.",
+                "Developed an admin panel for a fantasy gaming application where users can create teams and participate in contests.",
+                "Integrated global image modal and optimized navigation logic using React state passing instead of query parameters for efficient data handling.",
               ],
             },
           ],
         },
+
       ],
     },
     {
@@ -69,34 +66,7 @@ const Experience = () => {
         },
       ],
     },
-    {
-      company: "Geev Enterprise, Jaipur",
-      logo: geevLogo,
-      roles: [
-        {
-          title: "Business Manager",
-          period: "Jul 2022 – Sept 2023",
-          details: [
-            "Managed website operations and digital marketing strategies to increase brand visibility by 35%.",
-            "Led the graphic design team and spearheaded the digital transformation of key projects.",
-          ],
-        },
-      ],
-    },
-    {
-      company: "Solar Power Solutions, Jaipur",
-      logo: spvLogo,
-      roles: [
-        {
-          title: "Technical Assistant",
-          period: "Dec 2020 – Jul 2022",
-          details: [
-            "Designed and executed solar power projects, managing a team responsible for installations.",
-            "Provided customer support and managed annual maintenance contracts (AMC) for long-term partnerships.",
-          ],
-        },
-      ],
-    },
+
   ];
 
   const responsive = {
@@ -118,7 +88,7 @@ const Experience = () => {
           <Col size={12}>
             <div className="experience-bx wow zoomIn">
               <h2>Experience</h2>
-              <p>Here is an overview of my 4 years of experience, highlighting my professional journey and contributions.</p>
+              <p>Here is an overview of my 1.5 years of experience, highlighting my professional journey and contributions.</p>
               <Row>
                 <Carousel
                   responsive={responsive}
@@ -160,8 +130,7 @@ const Experience = () => {
             <div key={index}>
               {role.projects && role.projects.map((project, idx) => (
                 <div key={idx}>
-                  <h4>{project.name}</h4>
-                  <h6>({project.duration})</h6>
+                
                   <ul>
                     {project.details.map((detail, j) => (
                       <li key={j}>{detail}</li>

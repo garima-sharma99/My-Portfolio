@@ -40,7 +40,7 @@ export const Contact = () => {
                     <div className="d-flex justify-content-between mb-3 align-items-center">
                       <i className="fa-brands fa-linkedin fs-2"></i>
                       <a className="ms-3" href="https://linkedin.com/in/garima-sharma-215350249" target="_blank" rel="noreferrer">
-                        linkedin.com/in/garima-sharma-215350249
+                        linkedin.com/in/garima
                       </a>
                     </div>
                     <div className="d-flex justify-content-between align-items-center">
