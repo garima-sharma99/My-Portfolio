@@ -78,14 +78,16 @@ export const Banner = () => {
                       </ul>
 
                     </div>
+                      <a
+                        href="https://wa.me/917742840588?text=Hi%20Garima,%20I%20visited%20your%20portfolio%20and%20want%20to%20connect!"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                    <div className="d-inline-block">
 
-                    <a
-                      href="https://wa.me/917742840588?text=Hi%20Garima,%20I%20visited%20your%20portfolio%20and%20want%20to%20connect!"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <button className="vvd"><span>Let’s Connect </span><ArrowRightCircle size={25} /></button>
-                    </a>
+                        <button className="vvd"><span>Let’s Connect </span><ArrowRightCircle size={25} /></button>
+                    </div>
+                      </a>
                   </div>}
               </TrackVisibility>
             </Col>
